@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 
-SQLALCHEMY_DATABASE_URL = "mysql+mysqlconnector://root:@localhost:3306/codex_db"
+SQLALCHEMY_DATABASE_URL = "mysql+mysqlconnector://username:password@localhost:3306/codex_db"
 # SQLALCHEMY_DATABASE_URL = "postgresql://postgres:Postgresql@127.0.0.1:5432/postgres"
 
 # # db = databases.Database(SQLALCHEMY_DATABASE_URL)
